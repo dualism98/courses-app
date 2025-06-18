@@ -26,6 +26,8 @@ const CoursesListWidget: React.FC<CoursesListWidgetProps> = ({courses}) => {
       ]}
       showsHorizontalScrollIndicator={false}
       horizontal
+      initialNumToRender={10}
+      maxToRenderPerBatch={20}
     />
   );
 };

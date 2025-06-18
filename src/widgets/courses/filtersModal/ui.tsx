@@ -47,8 +47,9 @@ const FiltersModalWidget: React.FC<FiltersModalWidgetProps> = ({
           data={filters}
           renderItem={renderItem}
           showsVerticalScrollIndicator={false}
-          initialNumToRender={10}
           contentContainerStyle={[styles.contentContainer, {paddingBottom: insets.bottom + 12}]}
+          initialNumToRender={10}
+          maxToRenderPerBatch={20}
         />
       </View>
     </Modal>

@@ -24,6 +24,7 @@ const CoursesListScreen: React.FC = () => {
     ],
     [courses],
   );
+
   const filteredCourses = React.useMemo(() => {
     switch (selectedFilter.id) {
       case SystemFilter.ALL:
