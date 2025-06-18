@@ -1,5 +1,5 @@
 enum NavigationKeys {
-    CoursesListScreen = 'CoursesListScreen',
+  CoursesListScreen = 'CoursesListScreen',
 }
 
 export default NavigationKeys;
